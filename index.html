@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Welcome | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!--Navigation-->
+  <div class="sticky top-0 flex justify-between p-3 backdrop-blur-2xl shadow-2xl z-50">
+    <h1 class="text-lg py-3">Σ</h1>
+    <button id="openNav" class="bg-none text-base px-3 py-2 transition hover:bg-slate-200 rounded-full md:hidden"><ion-icon name="options-outline"></ion-icon></button>
+  </div>
+  
+  
+  <!--Intro-->
+  <section class="relative h-screen">
+    <div class="md:flex py-14 mx-10 justify-between items-center gap-12">
+      <div class="flex-col">
+        <p class="text-2xl">Hello! welcome</p>
+        <h1 class="my-5 md:text-8xl text-7xl">Im Vickty!</h1>
+        <p class="md:text-2xl">Welcome to my Portfolio!<br> Content Creator | Youtube & TikTok<br />Check this out!</p>
+        <div class="text-3xl mt-5">
+          <a href="#" style="color: red;"><ion-icon name="logo-youtube" class="mr-2"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-tiktok" class="mr-2"></ion-icon></a>
+          <a href="#" style="color: green;"><ion-icon name="logo-xbox"></ion-icon></a>
+        </div>
+        <i class="text-gray-600">Rebuild Website 2023-04-22</i>
+      </div>
+      <div class="md:w-[40%] relative w-[100%]">
+        <img class="absolute" src="./blobskinmc.svg" alt="blob" />
+        <img class="absolute blur-lg" src="./blobskinmc.svg" alt="blob" />
+        <img class="relative" src="./skinmc.png" alt="Vickty Skin" />
+      </div>
+    </div>
+  </section>
+  
+  <!--MySkill-->
+  <section class="relative mt-10 mx-10 h-screen">
+    <div class="text-center flex h-screen justify-around mx-20">
+      <div class="text-left mx-12">
+        <h1 class="text-8xl mb-12">My Skill</h1>
+        <p class="text-2xl">That's graphic-bar show my ability how new i am. I have learned development website since i was 14 years and also started learn Javascript. If you want to know details, <a href="#about" class="text-blue-500">click here</a></p>
+      </div>
+      <div class="mx-12">
+        
+        <!--Coding-->
+        <h1 class="text-8xl flex">Coding <span><ion-icon name="code-slash-outline"></ion-icon></span></h1>
+        <p class="mb-10">such html, css, js</p>
+        
+        <!--Html-->
+        <div class="bg-orange-200 w-full h-8 mb-5 p-1">
+          <div class="bg-[#27272a] h-full text-left flex items-center" style="width: 90%;"><span class="ml-4 text-white flex text-sm">Basic HTML/CSS/JS 90%</span></div>
+        </div>
+        
+        <!--CSS-->
+        <div class="bg-orange-200 w-full h-8 mb-5 p-1">
+          <div class="bg-[#27272a] h-full text-left flex items-center" style="width: 50%;color: #161515"><span class="ml-4 text-white flex text-sm">Design 50%</span></div>
+        </div>
+        
+        <!--JS-->
+        <div class="bg-orange-200 w-full h-8 mb-5 p-1">
+          <div class="bg-[#27272a] h-full text-left flex items-center" style="width: 40%;"><span class="ml-4 text-white flex text-sm">OOP 40%</span></div>
+        </div>
+        
+        <!--Deign-->
+        <div class="bg-orange-200 w-full h-8 mb-5 p-1">
+          <div class="bg-[#27272a] h-full text-left flex items-center" style="width: 60%;"><span class="ml-4 text-white flex text-sm">Framework 60%</span></div>
+        </div>
+      </div>
+  </section>
+  
+  <!--About-->
+  <section class="relative mx-20" id="about">
+    <div class="flex justify-between items-center h-screen">
+      <h1 class="text-center text-8xl mx-12">ABOUT<br />ME</h1>
+      <div class="w-[10px] bg-white"></div>
+      <p class="mx-12 text-lg">I am student and newbie in web development. In the past, I learned the python programming language for hacking. In the end, I decided to learn web development and javascript as the basis of all programming languages. Starting on 19-11-2022, I learned HTML, CSS for study and designing to sharpen my skills. On 2 November 2023, I was addicted to Javascript and dive into the world of web. It takes a long time to become a Web Developer. After that, I learned Java to know about their syntax and skills of coding. In less than 1 month, I am already proficient in java coding because I have the basics of JS</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="flex flex-col h-screen justify-center items-center">
+    <h1 class="text-6xl">Made with : </h1><span class="w-[10%]"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597 6.398-8.531 13.867-11.73 22.398-9.597 4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602-6.399 8.536-13.867 11.735-22.399 9.602-4.87-1.215-8.347-4.746-12.207-8.66-6.27-6.367-13.53-13.738-29.394-13.738zM32.004 64c-17.066 0-27.73 8.531-32 25.602C6.402 81.066 13.87 77.867 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66 6.274 6.367 13.536 13.738 29.395 13.738 17.066 0 27.73-8.53 32-25.597-6.399 8.531-13.867 11.73-22.399 9.597-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64zm0 0" fill="#38bdf8"/></svg>
+    <div>
+      
+    </div>
+  </footer>
+  
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+<script src="app.js"></script>
+</html>

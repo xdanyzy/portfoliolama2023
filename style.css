@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@600&display=swap');
+
+
+:root {
+  --bg: #F2F2F2;
+  --txtcolor: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--txtcolor);
+}
+
+.MyNaviClassList {
+  display: block;
+  background: black;
+}
+
+h1 {
+  font-family: "title";
+}
+
+
+@font-face {
+  font-family: 'title';
+  src: url(./Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: 'prop';
+  src: url(./Poppins-Medium.ttf);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #27272a;
+    --txtcolor: #FFFFFF;
+  }
+}
